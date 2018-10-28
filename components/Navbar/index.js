@@ -12,6 +12,9 @@ class Navbar extends React.Component {
     return (
       <nav>
         <div>
+          <Link href="/">
+            <a title="Homepage">Home</a>
+          </Link>
           <Link href="/about">
             <a title="About NextJS">About NextJS</a>
           </Link>

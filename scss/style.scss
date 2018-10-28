@@ -1,9 +1,10 @@
 @import '_vars';
 
 nav {
-  padding: 10px;
+  padding: 0.5rem;
 
   a {
+    padding: 0.5rem;
     text-decoration: none;
     font-variant: small-caps;
     color: $link;
