@@ -19,7 +19,6 @@ export default class MyApp extends App {
       <Container>
         <Head>
           <title>Awesome NextJS</title>
-          <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <Component {...pageProps} />
       </Container>
