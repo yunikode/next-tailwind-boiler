@@ -1,0 +1,12 @@
+@import '_vars';
+
+nav {
+  padding: 10px;
+
+  a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: $link;
+    font-weight: bold;
+  }
+}

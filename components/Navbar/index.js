@@ -1,10 +1,11 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
+import './Navbar.scss';
 
 class Navbar extends React.Component {
   constructor(props) {
-    super(props)
-    this.props = props
+    super(props);
+    this.props = props;
   }
 
   render() {
@@ -17,19 +18,11 @@ class Navbar extends React.Component {
           <Link href="/">
             <a title="Our API">API</a>
           </Link>
+          <mark className="badge">Hello</mark>
         </div>
-        <style jsx>
-        {`
-          a {
-            padding: 10px;
-            text-decoration: none;
-            color: green;
-          }
-          `}
-        </style>
       </nav>
-    )
+    );
   }
 }
 
-export default Navbar
+export default Navbar;
