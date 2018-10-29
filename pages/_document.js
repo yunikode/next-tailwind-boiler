@@ -4,8 +4,10 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html>
-        <Head />
-        <body>
+        <Head>
+        <link rel="stylesheet" href="/_next/static/style.css"/>
+        </Head>
+        <body className="bg-grey">
           <Main />
           <NextScript />
         </body>
